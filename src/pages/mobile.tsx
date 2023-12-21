@@ -58,7 +58,7 @@ const VideoPlayer = () => {
         <video
           id="rickroll"
           style={{ width: '100%', height: '100%' }}
-          src="/rickroll.mp4"
+          src="/rickroll-vertical.mp4"
           preload="auto"
           muted 
         />
@@ -68,3 +68,11 @@ const VideoPlayer = () => {
 };
 
 export default VideoPlayer;
+
+{/* <div>
+       <button id="aButton" onClick={rickRoll}>
+ beep
+  </button>
+
+      <video id="rickroll" style={{ width: '100%', height: '100%' }} src="/rickroll.mp4" muted />
+    </div> */}
