@@ -57,7 +57,7 @@ const VideoPlayer = () => {
       <div style={{ display: !isPlaying ? 'none' : 'block' }}>
         <video
           id="rickroll"
-          style={{ width: '100%', height: '100%' }}
+          style={{ position: 'absolute', top: '0', left: '0', zIndex: '1', maxWidth: '100%', maxHeight: '100%', width: '100%', height: '100%' }}
           src="/rickroll-vertical.mp4"
           preload="auto"
           muted 
