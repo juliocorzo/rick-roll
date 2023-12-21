@@ -27,16 +27,11 @@ const VideoPlayer = () => {
         <title>
           A gift from Jess
         </title>
-        <meta
-          name="Amazon - A gift from Jess"
-          content="Happy holidays!"
-          key="desc"
-        />
-        <meta name="description" content="A gift from Jess" key="desc" />
-        <meta property="og:title" content="Amazon" />
+        <meta name="description" content="Amazon Gift Card" key="desc" />
+        <meta property="og:title" content="A gift from Jess" />
         <meta
           property="og:image"
-          content="/amazon.png"
+          content="/preview.png"
         />
       </Head>
       <div style={{ display: !isPlaying ? 'block' : 'none' }}>
